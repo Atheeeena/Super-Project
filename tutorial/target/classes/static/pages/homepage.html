@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <p th:text="|Hello, ${name}!|" />
+    <p th:text="|Hello, ${password}!|" />
+    <div>
+        <form>
+            <label for="search">Search</label>
+            <input type="text" name="search" id="search">
+            <button type="submit">Search</button>
+        </form>
+        <h2>Recent messages</h2>
+        <button>Joe</button>
+        <br><br>
+        <button>Barry</button>
+        <br><br>
+        <button>Ashley</button>
+        <br><br>
+        <button>Quinn</button>
+        <br><br>
+        <button>Alex</button>
+        <br><br>
+        <p>Sign out:</p>
+        <button><a href="signin.html">Here</a></button>
+    </div>
+</body>
+</html>
